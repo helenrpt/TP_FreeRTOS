@@ -1,0 +1,35 @@
+#include <stdint.h>
+#include <stm32f446xx.h>
+#include <stdio.h>
+#include "main.h"
+#include "gpio.h"
+#include "usart.h"
+#include "timer.h"
+#include "util.h"
+#include "FreeRTOSConfig.h"
+
+
+TaskHandle_t Task1_Handle = Null;
+
+
+int main(void)
+{
+	FPU_Init();
+	GPIO_Init();
+	USART2_Init();
+	TIM2TICK_Init();
+	Task1_Handle =  xTaskCreate(Task1, Task1_Handle,2);
+
+
+
+	while(1){
+		//SYSTICK_Delay(1000);
+
+		TIM2TICK_Delay(1000);
+		GPIOA->ODR ^= 1<<5;
+		printf("Hello\r\n");
+	}
+}
+
+
+

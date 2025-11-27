@@ -1,0 +1,30 @@
+16:24:55 **** Incremental Build of configuration Debug for project 2_FreeRTOS2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -c -I../Inc -I"D:/RAPINAT/TPFreeRTOS/2_FreeRTOS2/Drivers/CMSIS/Include" -I"D:/RAPINAT/TPFreeRTOS/2_FreeRTOS2/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/RAPINAT/TPFreeRTOS/2_FreeRTOS2/ThirdParty" -I"D:/RAPINAT/TPFreeRTOS/2_FreeRTOS2/ThirdParty/FreeRTOS/Source/include" -I"D:/RAPINAT/TPFreeRTOS/2_FreeRTOS2/ThirdParty/FreeRTOS/Source/portable" -I"D:/RAPINAT/TPFreeRTOS/2_FreeRTOS2/ThirdParty/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"D:/RAPINAT/TPFreeRTOS/2_FreeRTOS2/ThirdParty/FreeRTOS/Source/portable/MemMang" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/timer.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -c -I../Inc -I"D:/RAPINAT/TPFreeRTOS/2_FreeRTOS2/Drivers/CMSIS/Include" -I"D:/RAPINAT/TPFreeRTOS/2_FreeRTOS2/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/RAPINAT/TPFreeRTOS/2_FreeRTOS2/ThirdParty" -I"D:/RAPINAT/TPFreeRTOS/2_FreeRTOS2/ThirdParty/FreeRTOS/Source/include" -I"D:/RAPINAT/TPFreeRTOS/2_FreeRTOS2/ThirdParty/FreeRTOS/Source/portable" -I"D:/RAPINAT/TPFreeRTOS/2_FreeRTOS2/ThirdParty/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"D:/RAPINAT/TPFreeRTOS/2_FreeRTOS2/ThirdParty/FreeRTOS/Source/portable/MemMang" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/timer.d" -MT"Src/timer.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/timer.o"
+../Src/timer.c: In function 'TIM2TICK_Init':
+../Src/timer.c:31:13: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   31 |             printf("Tim2 init\r\n");
+      |             ^~~~~~
+../Src/timer.c:4:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    3 | #include "timer.h"
+  +++ |+#include <stdio.h>
+    4 | 
+../Src/timer.c:31:13: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   31 |             printf("Tim2 init\r\n");
+      |             ^~~~~~
+../Src/timer.c:31:13: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "2_FreeRTOS2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\RAPINAT\TPFreeRTOS\2_FreeRTOS2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="2_FreeRTOS2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 2_FreeRTOS2.elf
+ 
+arm-none-eabi-size  2_FreeRTOS2.elf 
+arm-none-eabi-objdump -h -S 2_FreeRTOS2.elf  > "2_FreeRTOS2.list"
+   text	   data	    bss	    dec	    hex	filename
+   5196	     92	   2084	   7372	   1ccc	2_FreeRTOS2.elf
+Finished building: default.size.stdout
+ 
+Finished building: 2_FreeRTOS2.list
+ 
+
+16:24:57 Build Finished. 0 errors, 2 warnings. (took 1s.252ms)
+
