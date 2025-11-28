@@ -16,3 +16,6 @@
 "./ThirdParty/FreeRTOS/Source/timers.o"
 "./ThirdParty/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o"
 "./ThirdParty/FreeRTOS/Source/portable/MemMang/heap_4.o"
+"./ThirdParty/tracealyzer/Src/trcKernelPort.o"
+"./ThirdParty/tracealyzer/Src/trcSnapshotRecorder.o"
+"./ThirdParty/tracealyzer/Src/trcStreamingRecorder.o"

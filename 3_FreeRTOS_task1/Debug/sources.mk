@@ -27,4 +27,5 @@ Startup \
 ThirdParty/FreeRTOS/Source \
 ThirdParty/FreeRTOS/Source/portable/GCC/ARM_CM4F \
 ThirdParty/FreeRTOS/Source/portable/MemMang \
+ThirdParty/tracealyzer/Src \
 

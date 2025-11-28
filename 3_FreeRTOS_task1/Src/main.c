@@ -34,6 +34,7 @@ int main(void)
 	GPIO_Init();
 	USART2_Init();
 	TIM2TICK_Init();
+	vTraceEnable(TRC_START);
 	
 	// xTaskCreate(fonction, nom, taille_pile_en_mots, paramètre de la tache, priorité, handle)
 	// Taille pile: 256 mots = 1024 octets

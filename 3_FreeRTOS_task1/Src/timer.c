@@ -28,8 +28,6 @@ void TIM2TICK_Init(void)
 
             TIM2->CR1 |= TIM_CR1_CEN;     // Démarrer le timer
 
-            printf("Tim2 init\r\n");
-
 }
 
 /**

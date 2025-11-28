@@ -9,6 +9,7 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include ThirdParty/tracealyzer/Src/subdir.mk
 -include ThirdParty/FreeRTOS/Source/portable/MemMang/subdir.mk
 -include ThirdParty/FreeRTOS/Source/portable/GCC/ARM_CM4F/subdir.mk
 -include ThirdParty/FreeRTOS/Source/subdir.mk
@@ -62,8 +63,8 @@ all: main-build
 main-build: 3_FreeRTOS_task1.elf secondary-outputs
 
 # Tool invocations
-3_FreeRTOS_task1.elf 3_FreeRTOS_task1.map: $(OBJS) $(USER_OBJS) C:\Users\a511018\Desktop\USMB\ MASTER\TP_FreeRTOS\TP_FreeRTOS\3_FreeRTOS_task1\STM32F446RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "3_FreeRTOS_task1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\a511018\Desktop\USMB MASTER\TP_FreeRTOS\TP_FreeRTOS\3_FreeRTOS_task1\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="3_FreeRTOS_task1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+3_FreeRTOS_task1.elf 3_FreeRTOS_task1.map: $(OBJS) $(USER_OBJS) D:\RAPINAT\TPFreeRTOS\3_FreeRTOS_task1\STM32F446RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "3_FreeRTOS_task1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\RAPINAT\TPFreeRTOS\3_FreeRTOS_task1\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="3_FreeRTOS_task1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
