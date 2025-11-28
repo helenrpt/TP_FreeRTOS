@@ -14,7 +14,7 @@ TaskHandle_t Task2_Handle;
 
 void Task1_Handler(void *pvParameters){
 	while(1){
-		vTaskDelay(1000);
+		vTaskDelay(10);
 		GPIOA->ODR ^= 1<<5;
 		//printf("Hello\r\n");
 	}
@@ -22,7 +22,7 @@ void Task1_Handler(void *pvParameters){
 
 void Task2_Handler(void *pvParameters){
 	while(1){
-		vTaskDelay(1000);
+		vTaskDelay(10);
 		printf("Hello\r\n");
 	}
 }

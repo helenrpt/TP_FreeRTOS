@@ -2673,212 +2673,213 @@ LOAD C:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
                 0x08000274       0x24 ./Src/main.o
                 0x08000274                Task1_Handler
  .text.Task2_Handler
-                0x08000298       0x20 ./Src/main.o
+                0x08000298       0x1c ./Src/main.o
                 0x08000298                Task2_Handler
- .text.main     0x080002b8       0x68 ./Src/main.o
-                0x080002b8                main
- .text._read    0x08000320       0x3a ./Src/syscalls.o
-                0x08000320                _read
- .text._write   0x0800035a       0x38 ./Src/syscalls.o
-                0x0800035a                _write
- .text._close   0x08000392       0x18 ./Src/syscalls.o
-                0x08000392                _close
- .text._fstat   0x080003aa       0x20 ./Src/syscalls.o
-                0x080003aa                _fstat
- .text._isatty  0x080003ca       0x16 ./Src/syscalls.o
-                0x080003ca                _isatty
- .text._lseek   0x080003e0       0x1a ./Src/syscalls.o
-                0x080003e0                _lseek
- *fill*         0x080003fa        0x2 
- .text._sbrk    0x080003fc       0x6c ./Src/sysmem.o
-                0x080003fc                _sbrk
+ .text.main     0x080002b4       0x68 ./Src/main.o
+                0x080002b4                main
+ .text._read    0x0800031c       0x3a ./Src/syscalls.o
+                0x0800031c                _read
+ .text._write   0x08000356       0x38 ./Src/syscalls.o
+                0x08000356                _write
+ .text._close   0x0800038e       0x18 ./Src/syscalls.o
+                0x0800038e                _close
+ .text._fstat   0x080003a6       0x20 ./Src/syscalls.o
+                0x080003a6                _fstat
+ .text._isatty  0x080003c6       0x16 ./Src/syscalls.o
+                0x080003c6                _isatty
+ .text._lseek   0x080003dc       0x1a ./Src/syscalls.o
+                0x080003dc                _lseek
+ *fill*         0x080003f6        0x2 
+ .text._sbrk    0x080003f8       0x6c ./Src/sysmem.o
+                0x080003f8                _sbrk
  .text.__NVIC_EnableIRQ
-                0x08000468       0x3c ./Src/timer.o
+                0x08000464       0x3c ./Src/timer.o
  .text.__NVIC_SetPriority
-                0x080004a4       0x54 ./Src/timer.o
+                0x080004a0       0x54 ./Src/timer.o
  .text.TIM2TICK_Init
-                0x080004f8       0x6c ./Src/timer.o
-                0x080004f8                TIM2TICK_Init
+                0x080004f4       0x6c ./Src/timer.o
+                0x080004f4                TIM2TICK_Init
  .text.USART2_Init
-                0x08000564       0x80 ./Src/usart.o
-                0x08000564                USART2_Init
+                0x08000560       0x80 ./Src/usart.o
+                0x08000560                USART2_Init
  .text.USART2_TransmitChar
-                0x080005e4       0x30 ./Src/usart.o
-                0x080005e4                USART2_TransmitChar
+                0x080005e0       0x30 ./Src/usart.o
+                0x080005e0                USART2_TransmitChar
  .text.USART2_ReceiveChar
-                0x08000614       0x28 ./Src/usart.o
-                0x08000614                USART2_ReceiveChar
+                0x08000610       0x28 ./Src/usart.o
+                0x08000610                USART2_ReceiveChar
  .text.__io_putchar
-                0x0800063c       0x1c ./Src/util.o
-                0x0800063c                __io_putchar
+                0x08000638       0x1c ./Src/util.o
+                0x08000638                __io_putchar
  .text.__io_getchar
-                0x08000658        0xe ./Src/util.o
-                0x08000658                __io_getchar
- *fill*         0x08000666        0x2 
+                0x08000654        0xe ./Src/util.o
+                0x08000654                __io_getchar
+ *fill*         0x08000662        0x2 
  .text.FPU_Init
-                0x08000668       0x24 ./Src/util.o
-                0x08000668                FPU_Init
+                0x08000664       0x24 ./Src/util.o
+                0x08000664                FPU_Init
  .text.Reset_Handler
-                0x0800068c       0x50 ./Startup/startup_stm32f446retx.o
-                0x0800068c                Reset_Handler
+                0x08000688       0x50 ./Startup/startup_stm32f446retx.o
+                0x08000688                Reset_Handler
  .text.Default_Handler
-                0x080006dc        0x2 ./Startup/startup_stm32f446retx.o
-                0x080006dc                RTC_Alarm_IRQHandler
-                0x080006dc                EXTI2_IRQHandler
-                0x080006dc                TIM8_CC_IRQHandler
-                0x080006dc                SPDIF_Rx_IRQHandler
-                0x080006dc                DebugMon_Handler
-                0x080006dc                SPI4_IRQHandler
-                0x080006dc                TIM1_CC_IRQHandler
-                0x080006dc                QuadSPI_IRQHandler
-                0x080006dc                DMA2_Stream5_IRQHandler
-                0x080006dc                HardFault_Handler
-                0x080006dc                DMA1_Stream5_IRQHandler
-                0x080006dc                PVD_IRQHandler
-                0x080006dc                SDIO_IRQHandler
-                0x080006dc                TAMP_STAMP_IRQHandler
-                0x080006dc                NMI_Handler
-                0x080006dc                CAN2_RX1_IRQHandler
-                0x080006dc                EXTI3_IRQHandler
-                0x080006dc                TIM8_TRG_COM_TIM14_IRQHandler
-                0x080006dc                TIM1_UP_TIM10_IRQHandler
-                0x080006dc                FMPI2C1_error_IRQHandler
-                0x080006dc                TIM8_UP_TIM13_IRQHandler
-                0x080006dc                I2C3_ER_IRQHandler
-                0x080006dc                EXTI0_IRQHandler
-                0x080006dc                I2C2_EV_IRQHandler
-                0x080006dc                DMA1_Stream2_IRQHandler
-                0x080006dc                CAN1_RX0_IRQHandler
-                0x080006dc                OTG_HS_WKUP_IRQHandler
-                0x080006dc                UsageFault_Handler
-                0x080006dc                CAN2_SCE_IRQHandler
-                0x080006dc                DMA2_Stream2_IRQHandler
-                0x080006dc                SPI1_IRQHandler
-                0x080006dc                TIM6_DAC_IRQHandler
-                0x080006dc                TIM1_BRK_TIM9_IRQHandler
-                0x080006dc                DCMI_IRQHandler
-                0x080006dc                CAN2_RX0_IRQHandler
-                0x080006dc                DMA2_Stream3_IRQHandler
-                0x080006dc                FMPI2C1_IRQHandler
-                0x080006dc                SAI2_IRQHandler
-                0x080006dc                USART6_IRQHandler
-                0x080006dc                USART3_IRQHandler
-                0x080006dc                CAN1_RX1_IRQHandler
-                0x080006dc                UART5_IRQHandler
-                0x080006dc                DMA2_Stream0_IRQHandler
-                0x080006dc                TIM4_IRQHandler
-                0x080006dc                I2C1_EV_IRQHandler
-                0x080006dc                HDMI_CEC_IRQHandler
-                0x080006dc                DMA1_Stream6_IRQHandler
-                0x080006dc                DMA1_Stream1_IRQHandler
-                0x080006dc                UART4_IRQHandler
-                0x080006dc                TIM3_IRQHandler
-                0x080006dc                RCC_IRQHandler
-                0x080006dc                TIM8_BRK_TIM12_IRQHandler
-                0x080006dc                Default_Handler
-                0x080006dc                EXTI15_10_IRQHandler
-                0x080006dc                ADC_IRQHandler
-                0x080006dc                DMA1_Stream7_IRQHandler
-                0x080006dc                TIM7_IRQHandler
-                0x080006dc                CAN2_TX_IRQHandler
-                0x080006dc                TIM5_IRQHandler
-                0x080006dc                DMA2_Stream7_IRQHandler
-                0x080006dc                I2C3_EV_IRQHandler
-                0x080006dc                EXTI9_5_IRQHandler
-                0x080006dc                RTC_WKUP_IRQHandler
-                0x080006dc                SPI2_IRQHandler
-                0x080006dc                OTG_HS_EP1_IN_IRQHandler
-                0x080006dc                MemManage_Handler
-                0x080006dc                DMA1_Stream0_IRQHandler
-                0x080006dc                CAN1_TX_IRQHandler
-                0x080006dc                EXTI4_IRQHandler
-                0x080006dc                OTG_HS_EP1_OUT_IRQHandler
-                0x080006dc                WWDG_IRQHandler
-                0x080006dc                OTG_FS_WKUP_IRQHandler
-                0x080006dc                TIM1_TRG_COM_TIM11_IRQHandler
-                0x080006dc                OTG_HS_IRQHandler
-                0x080006dc                EXTI1_IRQHandler
-                0x080006dc                USART2_IRQHandler
-                0x080006dc                I2C2_ER_IRQHandler
-                0x080006dc                DMA2_Stream1_IRQHandler
-                0x080006dc                CAN1_SCE_IRQHandler
-                0x080006dc                FLASH_IRQHandler
-                0x080006dc                DMA2_Stream4_IRQHandler
-                0x080006dc                BusFault_Handler
-                0x080006dc                USART1_IRQHandler
-                0x080006dc                OTG_FS_IRQHandler
-                0x080006dc                SPI3_IRQHandler
-                0x080006dc                DMA1_Stream4_IRQHandler
-                0x080006dc                I2C1_ER_IRQHandler
-                0x080006dc                FMC_IRQHandler
-                0x080006dc                DMA2_Stream6_IRQHandler
-                0x080006dc                SAI1_IRQHandler
-                0x080006dc                DMA1_Stream3_IRQHandler
+                0x080006d8        0x2 ./Startup/startup_stm32f446retx.o
+                0x080006d8                RTC_Alarm_IRQHandler
+                0x080006d8                EXTI2_IRQHandler
+                0x080006d8                TIM8_CC_IRQHandler
+                0x080006d8                SPDIF_Rx_IRQHandler
+                0x080006d8                DebugMon_Handler
+                0x080006d8                SPI4_IRQHandler
+                0x080006d8                TIM1_CC_IRQHandler
+                0x080006d8                QuadSPI_IRQHandler
+                0x080006d8                DMA2_Stream5_IRQHandler
+                0x080006d8                HardFault_Handler
+                0x080006d8                DMA1_Stream5_IRQHandler
+                0x080006d8                PVD_IRQHandler
+                0x080006d8                SDIO_IRQHandler
+                0x080006d8                TAMP_STAMP_IRQHandler
+                0x080006d8                NMI_Handler
+                0x080006d8                CAN2_RX1_IRQHandler
+                0x080006d8                EXTI3_IRQHandler
+                0x080006d8                TIM8_TRG_COM_TIM14_IRQHandler
+                0x080006d8                TIM1_UP_TIM10_IRQHandler
+                0x080006d8                FMPI2C1_error_IRQHandler
+                0x080006d8                TIM8_UP_TIM13_IRQHandler
+                0x080006d8                I2C3_ER_IRQHandler
+                0x080006d8                EXTI0_IRQHandler
+                0x080006d8                I2C2_EV_IRQHandler
+                0x080006d8                DMA1_Stream2_IRQHandler
+                0x080006d8                CAN1_RX0_IRQHandler
+                0x080006d8                OTG_HS_WKUP_IRQHandler
+                0x080006d8                UsageFault_Handler
+                0x080006d8                CAN2_SCE_IRQHandler
+                0x080006d8                DMA2_Stream2_IRQHandler
+                0x080006d8                SPI1_IRQHandler
+                0x080006d8                TIM6_DAC_IRQHandler
+                0x080006d8                TIM1_BRK_TIM9_IRQHandler
+                0x080006d8                DCMI_IRQHandler
+                0x080006d8                CAN2_RX0_IRQHandler
+                0x080006d8                DMA2_Stream3_IRQHandler
+                0x080006d8                FMPI2C1_IRQHandler
+                0x080006d8                SAI2_IRQHandler
+                0x080006d8                USART6_IRQHandler
+                0x080006d8                USART3_IRQHandler
+                0x080006d8                CAN1_RX1_IRQHandler
+                0x080006d8                UART5_IRQHandler
+                0x080006d8                DMA2_Stream0_IRQHandler
+                0x080006d8                TIM4_IRQHandler
+                0x080006d8                I2C1_EV_IRQHandler
+                0x080006d8                HDMI_CEC_IRQHandler
+                0x080006d8                DMA1_Stream6_IRQHandler
+                0x080006d8                DMA1_Stream1_IRQHandler
+                0x080006d8                UART4_IRQHandler
+                0x080006d8                TIM3_IRQHandler
+                0x080006d8                RCC_IRQHandler
+                0x080006d8                TIM8_BRK_TIM12_IRQHandler
+                0x080006d8                Default_Handler
+                0x080006d8                EXTI15_10_IRQHandler
+                0x080006d8                ADC_IRQHandler
+                0x080006d8                DMA1_Stream7_IRQHandler
+                0x080006d8                TIM7_IRQHandler
+                0x080006d8                CAN2_TX_IRQHandler
+                0x080006d8                TIM5_IRQHandler
+                0x080006d8                DMA2_Stream7_IRQHandler
+                0x080006d8                I2C3_EV_IRQHandler
+                0x080006d8                EXTI9_5_IRQHandler
+                0x080006d8                RTC_WKUP_IRQHandler
+                0x080006d8                SPI2_IRQHandler
+                0x080006d8                OTG_HS_EP1_IN_IRQHandler
+                0x080006d8                MemManage_Handler
+                0x080006d8                DMA1_Stream0_IRQHandler
+                0x080006d8                CAN1_TX_IRQHandler
+                0x080006d8                EXTI4_IRQHandler
+                0x080006d8                OTG_HS_EP1_OUT_IRQHandler
+                0x080006d8                WWDG_IRQHandler
+                0x080006d8                OTG_FS_WKUP_IRQHandler
+                0x080006d8                TIM1_TRG_COM_TIM11_IRQHandler
+                0x080006d8                OTG_HS_IRQHandler
+                0x080006d8                EXTI1_IRQHandler
+                0x080006d8                USART2_IRQHandler
+                0x080006d8                I2C2_ER_IRQHandler
+                0x080006d8                DMA2_Stream1_IRQHandler
+                0x080006d8                CAN1_SCE_IRQHandler
+                0x080006d8                FLASH_IRQHandler
+                0x080006d8                DMA2_Stream4_IRQHandler
+                0x080006d8                BusFault_Handler
+                0x080006d8                USART1_IRQHandler
+                0x080006d8                OTG_FS_IRQHandler
+                0x080006d8                SPI3_IRQHandler
+                0x080006d8                DMA1_Stream4_IRQHandler
+                0x080006d8                I2C1_ER_IRQHandler
+                0x080006d8                FMC_IRQHandler
+                0x080006d8                DMA2_Stream6_IRQHandler
+                0x080006d8                SAI1_IRQHandler
+                0x080006d8                DMA1_Stream3_IRQHandler
  .text.vListInitialise
-                0x080006de       0x40 ./ThirdParty/FreeRTOS/Source/list.o
-                0x080006de                vListInitialise
+                0x080006da       0x40 ./ThirdParty/FreeRTOS/Source/list.o
+                0x080006da                vListInitialise
  .text.vListInitialiseItem
-                0x0800071e       0x1a ./ThirdParty/FreeRTOS/Source/list.o
-                0x0800071e                vListInitialiseItem
+                0x0800071a       0x1a ./ThirdParty/FreeRTOS/Source/list.o
+                0x0800071a                vListInitialiseItem
  .text.vListInsert
-                0x08000738       0x72 ./ThirdParty/FreeRTOS/Source/list.o
-                0x08000738                vListInsert
+                0x08000734       0x72 ./ThirdParty/FreeRTOS/Source/list.o
+                0x08000734                vListInsert
  .text.uxListRemove
-                0x080007aa       0x54 ./ThirdParty/FreeRTOS/Source/list.o
-                0x080007aa                uxListRemove
+                0x080007a6       0x54 ./ThirdParty/FreeRTOS/Source/list.o
+                0x080007a6                uxListRemove
  .text.xTaskCreate
-                0x080007fe       0x8c ./ThirdParty/FreeRTOS/Source/tasks.o
-                0x080007fe                xTaskCreate
- *fill*         0x0800088a        0x2 
+                0x080007fa       0x8c ./ThirdParty/FreeRTOS/Source/tasks.o
+                0x080007fa                xTaskCreate
+ *fill*         0x08000886        0x2 
  .text.prvInitialiseNewTask
-                0x0800088c      0x14c ./ThirdParty/FreeRTOS/Source/tasks.o
+                0x08000888      0x14c ./ThirdParty/FreeRTOS/Source/tasks.o
  .text.prvAddNewTaskToReadyList
-                0x080009d8      0x220 ./ThirdParty/FreeRTOS/Source/tasks.o
+                0x080009d4      0x220 ./ThirdParty/FreeRTOS/Source/tasks.o
  .text.vTaskDelay
-                0x08000bf8       0xdc ./ThirdParty/FreeRTOS/Source/tasks.o
-                0x08000bf8                vTaskDelay
+                0x08000bf4       0xdc ./ThirdParty/FreeRTOS/Source/tasks.o
+                0x08000bf4                vTaskDelay
  .text.vTaskStartScheduler
-                0x08000cd4       0xf0 ./ThirdParty/FreeRTOS/Source/tasks.o
-                0x08000cd4                vTaskStartScheduler
+                0x08000cd0       0xf0 ./ThirdParty/FreeRTOS/Source/tasks.o
+                0x08000cd0                vTaskStartScheduler
  .text.vTaskSuspendAll
-                0x08000dc4       0x1c ./ThirdParty/FreeRTOS/Source/tasks.o
-                0x08000dc4                vTaskSuspendAll
+                0x08000dc0       0x1c ./ThirdParty/FreeRTOS/Source/tasks.o
+                0x08000dc0                vTaskSuspendAll
  .text.xTaskResumeAll
-                0x08000de0      0x224 ./ThirdParty/FreeRTOS/Source/tasks.o
-                0x08000de0                xTaskResumeAll
+                0x08000ddc      0x224 ./ThirdParty/FreeRTOS/Source/tasks.o
+                0x08000ddc                xTaskResumeAll
  .text.xTaskIncrementTick
-                0x08001004      0x298 ./ThirdParty/FreeRTOS/Source/tasks.o
-                0x08001004                xTaskIncrementTick
+                0x08001000      0x298 ./ThirdParty/FreeRTOS/Source/tasks.o
+                0x08001000                xTaskIncrementTick
  .text.vTaskSwitchContext
-                0x0800129c      0x108 ./ThirdParty/FreeRTOS/Source/tasks.o
-                0x0800129c                vTaskSwitchContext
+                0x08001298      0x108 ./ThirdParty/FreeRTOS/Source/tasks.o
+                0x08001298                vTaskSwitchContext
  .text.uxTaskGetTaskNumber
-                0x080013a4       0x2c ./ThirdParty/FreeRTOS/Source/tasks.o
-                0x080013a4                uxTaskGetTaskNumber
+                0x080013a0       0x2c ./ThirdParty/FreeRTOS/Source/tasks.o
+                0x080013a0                uxTaskGetTaskNumber
  .text.vTaskSetTaskNumber
-                0x080013d0       0x26 ./ThirdParty/FreeRTOS/Source/tasks.o
-                0x080013d0                vTaskSetTaskNumber
- *fill*         0x080013f6        0x2 
+                0x080013cc       0x26 ./ThirdParty/FreeRTOS/Source/tasks.o
+                0x080013cc                vTaskSetTaskNumber
+ *fill*         0x080013f2        0x2 
  .text.prvIdleTask
-                0x080013f8       0x30 ./ThirdParty/FreeRTOS/Source/tasks.o
+                0x080013f4       0x30 ./ThirdParty/FreeRTOS/Source/tasks.o
  .text.prvInitialiseTaskLists
-                0x08001428       0x80 ./ThirdParty/FreeRTOS/Source/tasks.o
+                0x08001424       0x80 ./ThirdParty/FreeRTOS/Source/tasks.o
  .text.prvCheckTasksWaitingTermination
-                0x080014a8       0x5c ./ThirdParty/FreeRTOS/Source/tasks.o
+                0x080014a4       0x5c ./ThirdParty/FreeRTOS/Source/tasks.o
  .text.prvDeleteTCB
-                0x08001504       0x30 ./ThirdParty/FreeRTOS/Source/tasks.o
+                0x08001500       0x30 ./ThirdParty/FreeRTOS/Source/tasks.o
  .text.prvResetNextTaskUnblockTime
-                0x08001534       0x38 ./ThirdParty/FreeRTOS/Source/tasks.o
+                0x08001530       0x38 ./ThirdParty/FreeRTOS/Source/tasks.o
  .text.xTaskGetCurrentTaskHandle
-                0x0800156c       0x20 ./ThirdParty/FreeRTOS/Source/tasks.o
-                0x0800156c                xTaskGetCurrentTaskHandle
+                0x08001568       0x20 ./ThirdParty/FreeRTOS/Source/tasks.o
+                0x08001568                xTaskGetCurrentTaskHandle
  .text.prvAddCurrentTaskToDelayedList
-                0x0800158c      0x100 ./ThirdParty/FreeRTOS/Source/tasks.o
+                0x08001588      0x100 ./ThirdParty/FreeRTOS/Source/tasks.o
  .text.pxPortInitialiseStack
-                0x0800168c       0x68 ./ThirdParty/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o
-                0x0800168c                pxPortInitialiseStack
+                0x08001688       0x68 ./ThirdParty/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o
+                0x08001688                pxPortInitialiseStack
  .text.prvTaskExitError
-                0x080016f4       0x5c ./ThirdParty/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o
+                0x080016f0       0x5c ./ThirdParty/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o
+ *fill*         0x0800174c        0x4 
  .text.SVC_Handler
                 0x08001750       0x28 ./ThirdParty/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o
                 0x08001750                SVC_Handler
