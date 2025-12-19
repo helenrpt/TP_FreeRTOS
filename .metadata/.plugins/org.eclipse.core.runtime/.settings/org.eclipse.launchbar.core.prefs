@@ -12,6 +12,7 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:1_FreeRTOS/activeLaunchTarget=n
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:2_FreeRTOS2\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:4_IDLE_Task\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:5_periodic_task/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:6_stack\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:BusCom_OneWire\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:BusCom_OneWire\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Exam_ProgC/activeLaunchMode=run

@@ -15,13 +15,14 @@
 #define HIGH	(3u)
 
 TaskHandle_t Task1_Handle;
+TaskHandle_t Task2_Handle;
 TaskHandle_t TzCtrl_Handle;
 
 void Task1_Handler(void *pvParameters){
 
 for (;;){
 
-		printf("Hello from Task1\r\n");
+		printf("\r\n\r\n\r\n\r\n\r\nHello from Task1\r\n");
 		vTaskDelay(5);
 		growStack();
 
@@ -29,38 +30,35 @@ for (;;){
 	}
 }
 
-void TzCtrl_Handler(void *pvParameters){
-	uint8_t priority;
+void Task2_Handler(void *pvParameters){
 
-	for (;;){
+for (;;){
 
-		priority = uxTaskPriorityGet(NULL);
+		printf("\r\n\r\n\r\n\r\n\r\nHello from Task2\r\n");
+		vTaskDelay(5);
 
-		printf("Task2	[Priority %s]: RUNNING \r\n",
-				(priority == 1)?"Low":(priority == 2)?"Medium":"High");
-
-		printf("Task2	[Priority %s]: Lowering its priority to Low \r\n \r\n",
-				(priority == 1)?"Low":(priority == 2)?"Medium":"High");
-
-		vTaskPrioritySet( Task2_Handle ,LOW);
-
-		vTaskDelay(10);
 	}
 }
 
 
 int growStack(void){
 	printf("Appel growStack\r\n");
-	vTaskDelay(1);
+	vTaskDelay(5);
 	return growStack();
 
 }
 
 void vApplicationIdleHook( void ){
 	//printf("Entering sleep mode \r\n");
-	__WFI();
+	//__WFI();
 }
 
+
+void vApplicationStackOverflowHook( TaskHandle_t xTask,
+                                       char * pcTaskName ){
+	printf("Stack Over Flow from %s \r\n", pcTaskName);
+	vTaskDelay(5);
+}
 
 int main(void)
 {
@@ -76,8 +74,7 @@ int main(void)
 	// Priorité: 0 = plus basse, nombre plus élevé = priorité plus haute
 
 	xTaskCreate(Task1_Handler,"Task1", 256,NULL,2,&Task1_Handle);
-	xTaskCreate(TzCtrl_Handler,"TzCtrl", 256,NULL,2,&TzCtrl_Handle);
-
+	//xTaskCreate(Task2_Handler,"Task2", 256,NULL,2,&Task2_Handle);
 	
 	vTaskStartScheduler();  // Démarrer le scheduler FreeRTOS
 	
