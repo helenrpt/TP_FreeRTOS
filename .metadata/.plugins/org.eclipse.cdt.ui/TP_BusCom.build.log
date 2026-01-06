@@ -1,0 +1,27 @@
+17:01:26 **** Incremental Build of configuration Debug for project TP_BusCom ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/interrupt.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -I"D:/RAPINAT/TP_Buscom/Drivers" -I"D:/RAPINAT/TP_Buscom/Src" -I"D:/RAPINAT/TP_Buscom/Startup" -I"D:/RAPINAT/TP_Buscom/Drivers/CMSIS/Include" -I"D:/RAPINAT/TP_Buscom/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/RAPINAT/TP_Buscom/Drivers/CMSIS/Include/Device/ST/STM32F4xx/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/interrupt.d" -MT"Src/interrupt.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/interrupt.o"
+../Src/interrupt.c: In function 'EXTI15_10_IRQHandler':
+../Src/interrupt.c:133:34: warning: passing argument 1 of 'DS18B20_SetAlarm' from incompatible pointer type [-Wincompatible-pointer-types]
+  133 |                 DS18B20_SetAlarm(&PA10, consigne, 0);
+      |                                  ^~~~~
+      |                                  |
+      |                                  uint8_t * {aka unsigned char *}
+In file included from ../Src/interrupt.c:6:
+../Inc/ds18b20.h:11:39: note: expected 'ONEWIRE_PINOUT *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   11 | void DS18B20_SetAlarm(ONEWIRE_PINOUT *pin, int8_t TH, int8_t TL);
+      |                       ~~~~~~~~~~~~~~~~^~~
+arm-none-eabi-gcc -o "TP_BusCom.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\RAPINAT\TP_Buscom\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP_BusCom.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP_BusCom.elf
+ 
+arm-none-eabi-size  TP_BusCom.elf 
+arm-none-eabi-objdump -h -S TP_BusCom.elf  > "TP_BusCom.list"
+   text	   data	    bss	    dec	    hex	filename
+  17692	    472	   1920	  20084	   4e74	TP_BusCom.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP_BusCom.list
+ 
+
+17:01:27 Build Finished. 0 errors, 1 warnings. (took 1s.139ms)
+

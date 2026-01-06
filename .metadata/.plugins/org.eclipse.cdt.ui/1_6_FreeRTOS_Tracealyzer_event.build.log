@@ -1,0 +1,17 @@
+15:16:00 **** Incremental Build of configuration Debug for project 1_6_FreeRTOS_Tracealyzer_event ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -c -I../Inc -I"D:/RAPINAT/TPFreeRTOS/1_6_FreeRTOS_Tracealyzer_event/Drivers/CMSIS/Include" -I"D:/RAPINAT/TPFreeRTOS/1_6_FreeRTOS_Tracealyzer_event/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/RAPINAT/TPFreeRTOS/1_6_FreeRTOS_Tracealyzer_event/ThirdParty" -I"D:/RAPINAT/TPFreeRTOS/1_6_FreeRTOS_Tracealyzer_event/ThirdParty/FreeRTOS/Source/include" -I"D:/RAPINAT/TPFreeRTOS/1_6_FreeRTOS_Tracealyzer_event/ThirdParty/FreeRTOS/Source/portable" -I"D:/RAPINAT/TPFreeRTOS/1_6_FreeRTOS_Tracealyzer_event/ThirdParty/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"D:/RAPINAT/TPFreeRTOS/1_6_FreeRTOS_Tracealyzer_event/ThirdParty/FreeRTOS/Source/portable/MemMang" -I"D:/RAPINAT/TPFreeRTOS/1_6_FreeRTOS_Tracealyzer_event/ThirdParty/tracealyzer/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c: In function 'Task2_Handler':
+../Src/main.c:34:29: error: 'uart2Event' undeclared (first use in this function)
+   34 |                 vTracePrint(uart2Event, "Start UART Transmit");
+      |                             ^~~~~~~~~~
+../Src/main.c:34:29: note: each undeclared identifier is reported only once for each function it appears in
+../Src/main.c: In function 'main':
+../Src/main.c:57:21: warning: variable 'uart2Event' set but not used [-Wunused-but-set-variable]
+   57 |         traceString uart2Event;
+      |                     ^~~~~~~~~~
+make: *** [Src/subdir.mk:40: Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+15:16:01 Build Failed. 2 errors, 1 warnings. (took 742ms)
+

@@ -1,0 +1,29 @@
+11:16:58 **** Incremental Build of configuration Debug for project BusCom_OneWire ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/onewire.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -c -I../Inc -I"D:/RAPINAT/TP_Buscom/Drivers" -I"D:/RAPINAT/TP_Buscom/Src" -I"D:/RAPINAT/TP_Buscom/Drivers/CMSIS/Include" -I"D:/RAPINAT/TP_Buscom/Drivers/CMSIS/Device" -I"D:/RAPINAT/TP_Buscom/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/onewire.d" -MT"Src/onewire.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/onewire.o"
+../Src/onewire.c: In function 'ONEWIRE_RESET':
+../Src/onewire.c:15:5: warning: implicit declaration of function 'TIMER_DelayUs' [-Wimplicit-function-declaration]
+   15 |     TIMER_DelayUs(480);
+      |     ^~~~~~~~~~~~~
+../Src/onewire.c: In function 'ONEWIRE_Writebit0':
+../Src/onewire.c:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+   29 | }
+      | ^
+../Src/onewire.c: In function 'ONEWIRE_Writebit1':
+../Src/onewire.c:38:1: warning: control reaches end of non-void function [-Wreturn-type]
+   38 | }
+      | ^
+arm-none-eabi-gcc -o "BusCom_OneWire.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\RAPINAT\TP_Buscom\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BusCom_OneWire.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BusCom_OneWire.elf
+ 
+arm-none-eabi-size  BusCom_OneWire.elf 
+arm-none-eabi-objdump -h -S BusCom_OneWire.elf  > "BusCom_OneWire.list"
+   text	   data	    bss	    dec	    hex	filename
+   1520	      8	   1576	   3104	    c20	BusCom_OneWire.elf
+Finished building: default.size.stdout
+ 
+Finished building: BusCom_OneWire.list
+ 
+
+11:16:59 Build Finished. 0 errors, 3 warnings. (took 981ms)
+

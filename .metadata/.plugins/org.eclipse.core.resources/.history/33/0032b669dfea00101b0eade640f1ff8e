@@ -1,0 +1,126 @@
+#include <stdint.h>
+#include <stm32f446xx.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include "main.h"
+#include "gpio.h"
+#include "usart.h"
+#include "timer.h"
+#include "util.h"
+#include "FreeRTOS.h"
+#include "task.h"
+#include "semphr.h"
+
+
+#define LOW		(1u)
+#define MEDIUM	(2u)
+#define HIGH	(3u)
+
+TaskHandle_t Task1_Handle;
+TaskHandle_t Task2_Handle;
+TaskHandle_t Task3_Handle;
+
+SemaphoreHandle_t xSemaphore_Task1 = NULL;
+SemaphoreHandle_t xSemaphore_Task2 = NULL;
+SemaphoreHandle_t xSemaphore_Task3 = NULL;
+
+void Task1_Handler(void *pvParameters){
+	srand(1);
+	for (;;){
+        if( xSemaphoreTake( xSemaphore_Task1, portMAX_DELAY)  == pdTRUE )
+        {
+		printf("Task1 running\r\n");
+		xSemaphoreGive(xSemaphore_Task2);
+		vTaskDelay((rand()%10)+ 50);
+        }
+	}
+}
+
+
+void Task2_Handler(void *pvParameters){
+	uint8_t task1give = 1;
+	srand(2);
+	for (;;){
+        if( xSemaphoreTake( xSemaphore_Task2, portMAX_DELAY )  == pdTRUE)
+        {
+		printf("Task2 running\r\n");
+		if (task1give){
+		xSemaphoreGive(xSemaphore_Task1);
+		task1give=0;
+		}
+		else{
+		xSemaphoreGive(xSemaphore_Task3);
+		task1give=1;
+		}
+		vTaskDelay((rand()%10)+ 0);
+
+        }
+	}
+}
+
+
+void Task3_Handler(void *pvParameters){
+	srand(3);
+	for (;;){
+    if( xSemaphoreTake( xSemaphore_Task3, portMAX_DELAY) == pdTRUE )
+    {
+	printf("Task3 running\r\n");
+	xSemaphoreGive(xSemaphore_Task1);
+	vTaskDelay((rand()%10)+ 5);
+    }
+	}
+}
+
+
+
+void vApplicationIdleHook( void ){
+	//printf("Entering sleep mode \r\n");
+	__WFI();
+}
+
+
+void vApplicationStackOverflowHook( TaskHandle_t xTask,
+                                       char * pcTaskName ){
+	printf("Stack Over Flow from %s \r\n", pcTaskName);
+	vTaskDelay(5);
+}
+
+int main(void)
+{
+	FPU_Init();
+	GPIO_Init();
+	USART2_Init();
+	TIM2TICK_Init();
+
+	vTraceEnable(TRC_START);
+	
+	// xTaskCreate(fonction, nom, taille_pile_en_mots, paramètre de la tache, priorité, handle)
+	// Taille pile: 256 mots = 1024 octets
+	// Priorité: 0 = plus basse, nombre plus élevé = priorité plus haute
+
+    // Création des sémaphores pour chaque tâche
+    xSemaphore_Task1 = xSemaphoreCreateBinary();
+    xSemaphore_Task2 = xSemaphoreCreateBinary();
+    xSemaphore_Task3 = xSemaphoreCreateBinary();
+
+    // Vérifie si les sémaphores ont été créés correctement
+    if (xSemaphore_Task1 != NULL && xSemaphore_Task2 != NULL && xSemaphore_Task3 != NULL) {
+        // Initialiser Task1 pour commencer immédiatement
+        xSemaphoreGive(xSemaphore_Task1); // Donne immédiatement le sémaphore à Task1
+
+        // Création des tâches avec des priorités égales
+        xTaskCreate(Task1_Handler, "Task1", 256, NULL, MEDIUM, &Task1_Handle);
+        xTaskCreate(Task2_Handler, "Task2", 256, NULL, MEDIUM, &Task2_Handle);
+        xTaskCreate(Task3_Handler, "Task3", 256, NULL, MEDIUM, &Task3_Handle);
+
+        // Démarrer le scheduler FreeRTOS
+        vTaskStartScheduler();
+    }
+
+
+	while(1){
+	}
+}
+
+
+

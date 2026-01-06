@@ -1,0 +1,10 @@
+09:41:31 **** Incremental Build of configuration Debug for project 4_IDLE_Task ****
+make -j8 all 
+arm-none-eabi-size  4_IDLE_Task.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20516	    104	  24240	  44860	   af3c	4_IDLE_Task.elf
+Finished building: default.size.stdout
+ 
+
+09:41:31 Build Finished. 0 errors, 0 warnings. (took 266ms)
+

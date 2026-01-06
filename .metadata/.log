@@ -12195,3 +12195,48 @@ java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out 
 	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
 	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:50:13.369
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:50:33.394
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:50:53.429
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:51:13.461
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:51:33.514
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)

@@ -1,0 +1,25 @@
+11:49:00 **** Incremental Build of configuration Debug for project Examen_DSP_M1ESET ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F746xx -DSTM32 -DSTM32F746NGHx -DSTM32F746G_DISCO -DSTM32F7 -c -I../Inc -I"D:/Users/user/Desktop/Examen_DSP_M1ESET/Examen_DSP_M1ESET/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"D:/Users/user/Desktop/Examen_DSP_M1ESET/Examen_DSP_M1ESET/Drivers/CMSIS/Include" -I"D:/Users/user/Desktop/Examen_DSP_M1ESET/Examen_DSP_M1ESET/Drivers/BSP/STM32746G-Discovery" -I"D:/Users/user/Desktop/Examen_DSP_M1ESET/Examen_DSP_M1ESET/Drivers/BSP/Fonts" -I"D:/Users/user/Desktop/Examen_DSP_M1ESET/Examen_DSP_M1ESET/Drivers/STM32F7xx_HAL_Driver" -I"D:/Users/user/Desktop/Examen_DSP_M1ESET/Examen_DSP_M1ESET/Drivers/STM32F7xx_HAL_Driver/Inc" -I"D:/Users/user/Desktop/Examen_DSP_M1ESET/Examen_DSP_M1ESET/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c:16: warning: "SIZE_INPUT_EXAMEN" redefined
+   16 | #define SIZE_INPUT_EXAMEN 100
+      | 
+In file included from ../Src/main.c:3:
+../Inc/filter_Coeff.h:7: note: this is the location of the previous definition
+    7 | #define SIZE_INPUT_EXAMEN               /* A definir */
+      | 
+arm-none-eabi-gcc -o "Examen_DSP_M1ESET.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\Users\user\Desktop\Examen_DSP_M1ESET\Examen_DSP_M1ESET\STM32F746NGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Examen_DSP_M1ESET.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: Examen_DSP_M1ESET.elf has a LOAD segment with RWX permissions
+Finished building target: Examen_DSP_M1ESET.elf
+ 
+arm-none-eabi-size  Examen_DSP_M1ESET.elf 
+arm-none-eabi-objdump -h -S Examen_DSP_M1ESET.elf  > "Examen_DSP_M1ESET.list"
+   text	   data	    bss	    dec	    hex	filename
+  68200	    116	  99492	 167808	  28f80	Examen_DSP_M1ESET.elf
+Finished building: default.size.stdout
+ 
+Finished building: Examen_DSP_M1ESET.list
+ 
+
+11:49:01 Build Finished. 0 errors, 2 warnings. (took 1s.536ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 9 resources" deleteContents="false" description="Delete 9 resources" element1="/8_synchro_task/1_FreeRTOS.launch" element2="/8_synchro_task/1_FreeRTOS (1).launch" element3="/8_synchro_task/2_FreeRTOS2 Debug.launch" element4="/8_synchro_task/4_IDLE_Task Debug.launch" element5="/8_synchro_task/5_periodic_task.launch" element6="/8_synchro_task/6_stack Debug.launch" element7="/8_synchro_task/7_sections_critiques Debug.launch" element8="/8_synchro_task/7_sections_critiques Debug (1).launch" element9="/8_synchro_task/FreeRTOS_ordo_cooperatif Debug.launch" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="9" stamp="1767684487163"/>
+</session>

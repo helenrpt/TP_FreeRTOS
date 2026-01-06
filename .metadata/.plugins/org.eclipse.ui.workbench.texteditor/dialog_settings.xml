@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<item key="replaceBarOpen" value="true"/>
+	<list key="searchhistory">
+		<item value="hoo"/>
+		<item value="TRC_CF"/>
+		<item value="bufferInputRight"/>
+		<item value="input"/>
+		<item value="TIMER_DelayUs"/>
+		<item value="create"/>
+		<item value="TIM2"/>
+		<item value="tick_conf"/>
+		<item value="Timer"/>
+	</list>
+	<list key="replacehistory">
+		<item value="delay_us"/>
+	</list>
+</section>
