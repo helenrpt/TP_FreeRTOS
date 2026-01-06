@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:7_sections_critiques Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:1_FreeRTOS (1),org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:1_FreeRTOS,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:2_FreeRTOS2 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:4_IDLE_Task Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:5_periodic_task,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:FreeRTOS_ordo_cooperatif Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:7_sections_critiques Debug (1)
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:8_synchro_Appli
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:1_6_FreeRTOS_Tracealyzer_event\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:1_6_FreeRTOS_Tracealyzer_event\ Debug/activeLaunchTarget=null\:---
@@ -16,6 +16,8 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:6_stack\ Debug/activeLaunchMode
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:7_Sections_Critiques\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:7_sections_critiques\ Debug\ (1)/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:7_sections_critiques\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:8_synchro_Appli/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:8_synchro_task/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:BusCom_OneWire\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:BusCom_OneWire\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Exam_ProgC/activeLaunchMode=run
