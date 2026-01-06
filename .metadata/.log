@@ -12240,3 +12240,2001 @@ java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out 
 	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
 	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:51:53.556
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:52:13.574
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:52:33.608
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:52:53.645
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:53:13.669
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:53:33.694
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:53:53.722
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:54:13.741
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:54:33.768
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:54:53.797
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:55:13.822
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:55:33.844
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:55:53.873
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:56:13.891
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:56:33.928
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:56:53.962
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:57:13.999
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:57:34.028
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-01-06 10:57:35.601
+!MESSAGE Indexed '9_task_communication' (20 sources, 148 headers) in 1.34 sec: 9,707 declarations; 31,675 references; 8 unresolved inclusions; 374 syntax errors; 889 unresolved names (2.1%)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:57:54.070
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:58:14.107
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:58:34.136
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:58:54.170
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:59:14.215
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:59:34.258
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 10:59:54.282
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:00:14.307
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:00:34.337
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:00:54.358
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:01:14.380
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:01:34.398
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:01:54.439
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:02:14.480
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:02:34.509
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:02:54.540
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:03:14.557
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:03:34.582
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:03:54.621
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:04:14.653
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:04:34.670
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:04:54.697
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:05:14.729
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:05:34.766
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:05:54.812
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:06:14.850
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:06:34.891
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:06:54.928
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:07:14.948
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:07:34.980
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:07:55.024
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:08:15.067
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:08:35.097
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:08:55.129
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:09:15.161
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:09:35.190
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:09:55.236
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:10:15.259
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:10:35.290
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:10:55.330
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:11:15.361
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2026-01-06 11:11:23.302
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:11:35.382
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:11:51.170
+!MESSAGE ContextManager.reportStatus(): Context for Session 40 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:11:54.745
+!MESSAGE ContextManager.reportStatus(): Context for Session 40 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:11:54.815
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:11:55.415
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:12:15.443
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:12:34.925
+!MESSAGE ContextManager.reportStatus(): Context for Session 41 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:12:35.482
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:12:38.396
+!MESSAGE ContextManager.reportStatus(): Context for Session 41 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:12:38.494
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:12:55.514
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:13:05.122
+!MESSAGE ContextManager.reportStatus(): Context for Session 42 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:13:08.711
+!MESSAGE ContextManager.reportStatus(): Context for Session 42 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:13:08.769
+!MESSAGE ContextManager.reportStatus(): Context for Session 42 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:13:15.556
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:13:24.206
+!MESSAGE ContextManager.reportStatus(): Context for Session 42 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:13:35.792
+!MESSAGE ContextManager.reportStatus(): Context for Session 42 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:13:35.793
+!MESSAGE TraceFileReader.reportStatus(): Context retreived
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:13:35.929
+!MESSAGE TraceFileReader.reportStatus(): Read Trace size: 18404
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:13:35.959
+!MESSAGE TraceFileReader.reportStatus(): Read Trace address: 0x20003EB4
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:13:35.960
+!MESSAGE MemoryReader.readMemoryAsync(): Reading memory for: 0x20003eb4 (size: 18404)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:13:35.960
+!MESSAGE MemoryReader.tryReadMemory(): Memory context (getAdapter): org.eclipse.cdt.dsf.gdb.service.GDBProcesses_7_4$GDBContainerDMC_7_4
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:13:35.961
+!MESSAGE MemoryReader.tryReadMemory(): Expression context: org.eclipse.cdt.dsf.mi.service.MIExpressions$MIExpressionDMC
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:13:35.961
+!MESSAGE MemoryReader.tryReadMemory(): Memory adapter: org.eclipse.cdt.dsf.gdb.internal.memory.GdbMemoryBlockRetrieval
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:13:35.961
+!MESSAGE MemoryReader.tryReadMemory(): Trying to read data for 3 contexts
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:13:35.962
+!MESSAGE MemoryReader.readMemoryForContext(): Reading data for context org.eclipse.cdt.dsf.gdb.service.GDBProcesses_7_4$GDBContainerDMC_7_4, (with extended, with fallback)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:13:36.094
+!MESSAGE MemoryReader.tryReadMemory(): Read data for context org.eclipse.cdt.dsf.gdb.service.GDBProcesses_7_4$GDBContainerDMC_7_4
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:13:36.095
+!MESSAGE TraceFileReader.reportStatus(): Read 18404 bytes from memory
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:13:36.096
+!MESSAGE TraceFileReader.reportStatus(): Successfully written 18404 bytes to file: 'D:\RAPINAT\TPFreeRTOS\Traces\2026-01-06_11.13.36.95.bin'
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:13:36.110
+!MESSAGE ContextManager.reportStatus(): Context for Session 42 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 0 0 2026-01-06 11:13:36.138
+!MESSAGE .runRequest.onSuccess(): Saved trace to file 'D:\RAPINAT\TPFreeRTOS\Traces\2026-01-06_11.13.36.95.bin' (as argument)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:13:39.275
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:13:49.296
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:14:09.329
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:14:29.349
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:14:49.380
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:14:56.340
+!MESSAGE ContextManager.reportStatus(): Context for Session 42 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:14:56.884
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:22:47.899
+!MESSAGE ContextManager.reportStatus(): Context for Session 43 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:22:51.370
+!MESSAGE ContextManager.reportStatus(): Context for Session 43 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:22:51.446
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY org.eclipse.core.resources 4 368 2026-01-06 11:26:27.783
+!MESSAGE Resource '/9_task_communication' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/9_task_communication' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:364)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:238)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:183)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:569)
+	at org.eclipse.core.internal.resources.Project.getNature(Project.java:446)
+	at com.st.stm32cube.ide.mcu.projectnatures.properties.PropertyTester.isMcuProject(PropertyTester.java:46)
+	at com.st.stm32cube.ide.mcu.projectnatures.properties.PropertyTester.test(PropertyTester.java:31)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.internal.expressions.NotExpression.evaluate(NotExpression.java:39)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:202)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:76)
+	at org.eclipse.ui.internal.activities.MutableActivityManager.updateActivity(MutableActivityManager.java:658)
+	at org.eclipse.ui.internal.activities.MutableActivityManager.updateActivities(MutableActivityManager.java:593)
+	at org.eclipse.ui.internal.activities.MutableActivityManager.updateExpressionEnabledActivities(MutableActivityManager.java:562)
+	at org.eclipse.ui.internal.activities.MutableActivityManager.removeExpressionEnabledActivity(MutableActivityManager.java:556)
+	at org.eclipse.ui.internal.activities.MutableActivityManager.lambda$1(MutableActivityManager.java:617)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:116)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:100)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:140)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-01-06 11:26:38.541
+!MESSAGE Indexed '9_task_communication2' (20 sources, 148 headers) in 1.11 sec: 9,712 declarations; 32,576 references; 4 unresolved inclusions; 150 syntax errors; 172 unresolved names (0.41%)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2026-01-06 11:26:52.869
+!MESSAGE Project '9_task_communication' is not open.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/9_task_communication)[372]: java.lang.Exception: Project '9_task_communication' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:186)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:430)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.cacheNaturesIdsUsedOnCache(ConfigurationDataProvider.java:383)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:580)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:76)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:106)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:100)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:140)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2026-01-06 11:26:52.869
+!MESSAGE Project '9_task_communication' is not open.
+!STACK 0
+java.lang.Exception: Project '9_task_communication' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:186)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:430)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.cacheNaturesIdsUsedOnCache(ConfigurationDataProvider.java:383)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:580)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:76)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:106)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:100)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:140)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2026-01-06 11:26:52.876
+!MESSAGE Project '9_task_communication' is not open.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/9_task_communication)[372]: java.lang.Exception: Project '9_task_communication' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:186)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:430)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.cacheNaturesIdsUsedOnCache(ConfigurationDataProvider.java:383)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:580)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:76)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:106)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:100)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:140)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2026-01-06 11:26:52.876
+!MESSAGE Project '9_task_communication' is not open.
+!STACK 0
+java.lang.Exception: Project '9_task_communication' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:186)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:430)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.cacheNaturesIdsUsedOnCache(ConfigurationDataProvider.java:383)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:580)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:76)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:106)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:100)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:140)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.cdt.core 4 0 2026-01-06 11:26:52.883
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: attempt to set description for a project which does not exist or not open
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.setCurrentDescription(XmlProjectDescriptionStorage.java:382)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.setLoaddedDescriptionOnLoad(XmlProjectDescriptionStorage.java:360)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:258)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:76)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:106)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:100)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:140)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 1 org.eclipse.cdt.core 4 -1 2026-01-06 11:26:52.883
+!MESSAGE attempt to set description for a project which does not exist or not open
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-01-06 11:27:07.863
+!MESSAGE Indexed '10_ISR' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.core.resources 4 4 2026-01-06 11:27:09.789
+!MESSAGE Exception occurred while saving project preferences: /9_task_communication2/.settings/com.st.stm32cube.ide.mcu.sfrview.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/9_task_communication2)[368]: java.lang.Exception: Resource '/9_task_communication2' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:364)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:238)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:183)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:43)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
+	at org.eclipse.core.internal.resources.ProjectPreferences.lambda$2(ProjectPreferences.java:730)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:755)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:436)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:459)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.persistState(ProjectStateManager.java:95)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.refresh(ProjectStateManager.java:45)
+	at com.st.stm32cube.ide.mcu.sfrview.ui.SfrView.svdModelChanged(SfrView.java:1860)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.notifyListeners(SfrRegisterModel.java:1180)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1211)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1198)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.selectionChanged(SfrRegisterModel.java:1163)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:266)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:98)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:72)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:471)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2132)
+	at org.eclipse.jface.viewers.ColumnViewer.updateSelection(ColumnViewer.java:1055)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1170)
+	at org.eclipse.ui.navigator.CommonViewer.handleSelect(CommonViewer.java:463)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1199)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:262)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4124)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2026-01-06 11:27:09.789
+!MESSAGE Resource '/9_task_communication2' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/9_task_communication2' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:364)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:238)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:183)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:43)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
+	at org.eclipse.core.internal.resources.ProjectPreferences.lambda$2(ProjectPreferences.java:730)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:755)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:436)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:459)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.persistState(ProjectStateManager.java:95)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.refresh(ProjectStateManager.java:45)
+	at com.st.stm32cube.ide.mcu.sfrview.ui.SfrView.svdModelChanged(SfrView.java:1860)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.notifyListeners(SfrRegisterModel.java:1180)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1211)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1198)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.selectionChanged(SfrRegisterModel.java:1163)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:266)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:98)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:72)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:471)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2132)
+	at org.eclipse.jface.viewers.ColumnViewer.updateSelection(ColumnViewer.java:1055)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1170)
+	at org.eclipse.ui.navigator.CommonViewer.handleSelect(CommonViewer.java:463)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1199)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:262)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4124)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2026-01-06 11:30:31.149
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2026-01-06 11:30:36.264
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:31:08.498
+!MESSAGE ContextManager.reportStatus(): Context for Session 44 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:31:11.795
+!MESSAGE ContextManager.reportStatus(): Context for Session 44 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:31:11.889
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:32:27.677
+!MESSAGE ContextManager.reportStatus(): Context for Session 45 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:32:30.978
+!MESSAGE ContextManager.reportStatus(): Context for Session 45 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:32:31.058
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:32:51.623
+!MESSAGE ContextManager.reportStatus(): Context for Session 46 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:32:54.912
+!MESSAGE ContextManager.reportStatus(): Context for Session 46 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:32:54.990
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:40:42.790
+!MESSAGE ContextManager.reportStatus(): Context for Session 47 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:40:46.072
+!MESSAGE ContextManager.reportStatus(): Context for Session 47 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:40:46.150
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:40:57.838
+!MESSAGE ContextManager.reportStatus(): Context for Session 48 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:41:01.236
+!MESSAGE ContextManager.reportStatus(): Context for Session 48 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:41:01.293
+!MESSAGE ContextManager.reportStatus(): Context for Session 48 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:41:08.356
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:41:13.862
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:41:17.223
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:41:17.283
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:41:21.581
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:41:23.822
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:41:23.822
+!MESSAGE TraceFileReader.reportStatus(): Context retreived
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:41:24.092
+!MESSAGE TraceFileReader.reportStatus(): Read Trace size: 18404
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:41:24.109
+!MESSAGE TraceFileReader.reportStatus(): Read Trace address: 0x20003EA8
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:41:24.110
+!MESSAGE MemoryReader.readMemoryAsync(): Reading memory for: 0x20003ea8 (size: 18404)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:41:24.110
+!MESSAGE MemoryReader.tryReadMemory(): Memory context (getAdapter): org.eclipse.cdt.dsf.gdb.service.GDBProcesses_7_4$GDBContainerDMC_7_4
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:41:24.110
+!MESSAGE MemoryReader.tryReadMemory(): Expression context: org.eclipse.cdt.dsf.mi.service.MIExpressions$MIExpressionDMC
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:41:24.111
+!MESSAGE MemoryReader.tryReadMemory(): Memory adapter: org.eclipse.cdt.dsf.gdb.internal.memory.GdbMemoryBlockRetrieval
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:41:24.111
+!MESSAGE MemoryReader.tryReadMemory(): Trying to read data for 3 contexts
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:41:24.111
+!MESSAGE MemoryReader.readMemoryForContext(): Reading data for context org.eclipse.cdt.dsf.gdb.service.GDBProcesses_7_4$GDBContainerDMC_7_4, (with extended, with fallback)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:41:24.241
+!MESSAGE MemoryReader.tryReadMemory(): Read data for context org.eclipse.cdt.dsf.gdb.service.GDBProcesses_7_4$GDBContainerDMC_7_4
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:41:24.241
+!MESSAGE TraceFileReader.reportStatus(): Read 18404 bytes from memory
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:41:24.242
+!MESSAGE TraceFileReader.reportStatus(): Successfully written 18404 bytes to file: 'D:\RAPINAT\TPFreeRTOS\Traces\2026-01-06_11.41.24.241.bin'
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:41:24.257
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 0 0 2026-01-06 11:41:24.273
+!MESSAGE .runRequest.onSuccess(): Saved trace to file 'D:\RAPINAT\TPFreeRTOS\Traces\2026-01-06_11.41.24.241.bin' (as argument)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:41:26.108
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:41:46.147
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:42:06.176
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:42:26.203
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:42:46.245
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:42:53.886
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:42:55.961
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:43:06.286
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:43:26.313
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:43:46.339
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:44:06.369
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:44:26.394
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:44:46.431
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:45:06.464
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:45:26.504
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:45:46.544
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:46:06.563
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:46:26.594
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:46:46.628
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:47:06.655
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:47:26.683
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:47:46.727
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:48:06.759
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:48:26.788
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:48:46.813
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:49:06.844
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:49:26.869
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:49:46.897
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:50:06.936
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:50:26.973
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:50:44.103
+!MESSAGE ContextManager.reportStatus(): Context for Session 50 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:50:47.016
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:50:47.400
+!MESSAGE ContextManager.reportStatus(): Context for Session 50 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:50:47.480
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2026-01-06 11:50:47.483
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 50 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2026-01-06 11:50:47.483
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2026-01-06 11:50:47.484
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 50 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2026-01-06 11:50:47.484
+!MESSAGE Existing sessions are:
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:51:04.705
+!MESSAGE ContextManager.reportStatus(): Context for Session 51 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:51:07.045
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:51:08.074
+!MESSAGE ContextManager.reportStatus(): Context for Session 51 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:51:08.131
+!MESSAGE ContextManager.reportStatus(): Context for Session 51 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:51:15.227
+!MESSAGE ContextManager.reportStatus(): Context for Session 51 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:51:19.678
+!MESSAGE ContextManager.reportStatus(): Context for Session 51 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:51:19.678
+!MESSAGE TraceFileReader.reportStatus(): Context retreived
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:51:19.869
+!MESSAGE TraceFileReader.reportStatus(): Read Trace size: 18404
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:51:19.892
+!MESSAGE TraceFileReader.reportStatus(): Read Trace address: 0x20003EB0
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:51:19.893
+!MESSAGE MemoryReader.readMemoryAsync(): Reading memory for: 0x20003eb0 (size: 18404)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:51:19.893
+!MESSAGE MemoryReader.tryReadMemory(): Memory context (getAdapter): org.eclipse.cdt.dsf.gdb.service.GDBProcesses_7_4$GDBContainerDMC_7_4
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:51:19.893
+!MESSAGE MemoryReader.tryReadMemory(): Expression context: org.eclipse.cdt.dsf.mi.service.MIExpressions$MIExpressionDMC
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:51:19.893
+!MESSAGE MemoryReader.tryReadMemory(): Memory adapter: org.eclipse.cdt.dsf.gdb.internal.memory.GdbMemoryBlockRetrieval
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:51:19.893
+!MESSAGE MemoryReader.tryReadMemory(): Trying to read data for 3 contexts
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:51:19.893
+!MESSAGE MemoryReader.readMemoryForContext(): Reading data for context org.eclipse.cdt.dsf.gdb.service.GDBProcesses_7_4$GDBContainerDMC_7_4, (with extended, with fallback)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:51:20.026
+!MESSAGE MemoryReader.tryReadMemory(): Read data for context org.eclipse.cdt.dsf.gdb.service.GDBProcesses_7_4$GDBContainerDMC_7_4
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:51:20.027
+!MESSAGE TraceFileReader.reportStatus(): Read 18404 bytes from memory
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:51:20.028
+!MESSAGE TraceFileReader.reportStatus(): Successfully written 18404 bytes to file: 'D:\RAPINAT\TPFreeRTOS\Traces\2026-01-06_11.51.20.27.bin'
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:51:20.040
+!MESSAGE ContextManager.reportStatus(): Context for Session 51 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 0 0 2026-01-06 11:51:20.060
+!MESSAGE .runRequest.onSuccess(): Saved trace to file 'D:\RAPINAT\TPFreeRTOS\Traces\2026-01-06_11.51.20.27.bin' (as argument)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:51:21.868
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:51:41.891
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:52:01.928
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:52:21.953
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:52:41.989
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:53:02.007
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:53:22.019
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:53:42.053
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:54:02.094
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:54:22.118
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:54:42.146
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:54:54.514
+!MESSAGE ContextManager.reportStatus(): Context for Session 51 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:54:56.587
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:55:02.190
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:55:22.221
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:55:24.905
+!MESSAGE ContextManager.reportStatus(): Context for Session 52 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:55:28.204
+!MESSAGE ContextManager.reportStatus(): Context for Session 52 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:55:28.311
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:55:42.245
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:56:02.287
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:56:22.323
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:56:42.076
+!MESSAGE ContextManager.reportStatus(): Context for Session 53 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:56:42.356
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:56:45.366
+!MESSAGE ContextManager.reportStatus(): Context for Session 53 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:56:45.440
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:57:02.387
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:57:22.419
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:57:37.228
+!MESSAGE ContextManager.reportStatus(): Context for Session 54 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:57:40.538
+!MESSAGE ContextManager.reportStatus(): Context for Session 54 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:57:40.618
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:57:42.445
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:58:02.477
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:58:22.498
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:58:42.533
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:58:51.170
+!MESSAGE ContextManager.reportStatus(): Context for Session 55 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2026-01-06 11:58:54.450
+!MESSAGE ContextManager.reportStatus(): Context for Session 55 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:58:54.524
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:59:02.565
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:59:22.592
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 11:59:42.625
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 12:00:02.638
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 12:00:22.666
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 12:00:42.681
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 12:01:02.714
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2026-01-06 12:01:22.742
+!MESSAGE Connection.checkIncomingMessages(): Problem checking messages
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1025 out of bounds for byte[1024]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at com.percepio.tracealyzer.communication.Connection.checkIncomingMessages(Connection.java:636)
+	at com.percepio.tracealyzer.communication.Connection.run(Connection.java:475)
+	at java.base/java.lang.Thread.run(Thread.java:1583)

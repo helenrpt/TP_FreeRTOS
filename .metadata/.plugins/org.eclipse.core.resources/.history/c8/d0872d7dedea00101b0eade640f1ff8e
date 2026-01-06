@@ -1,0 +1,82 @@
+#include <stdint.h>
+#include <stm32f446xx.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include "main.h"
+#include "gpio.h"
+#include "usart.h"
+#include "timer.h"
+#include "util.h"
+#include "FreeRTOS.h"
+#include "task.h"
+#include "semphr.h"
+#include "interrupt.h"
+
+
+#define LOW		(1u)
+#define MEDIUM	(2u)
+#define HIGH	(3u)
+
+TaskHandle_t TaskGenerateIT_Handle;
+traceHandle_t PC13_IT_Handle;
+
+IRQn_Type IRQn;
+
+void TaskGenerateIT_Handler(void *pvParameters){
+
+	for (;;){
+
+		NVIC_SetPendingIRQ(IRQn);
+
+		vTaskDelay(50);
+        }
+
+}
+
+
+void vApplicationIdleHook( void ){
+	//printf("Entering sleep mode \r\n");
+	__WFI();
+}
+
+
+void vApplicationStackOverflowHook( TaskHandle_t xTask,
+                                       char * pcTaskName ){
+	printf("Stack Over Flow from %s \r\n", pcTaskName);
+	vTaskDelay(5);
+}
+
+int main(void)
+{
+	FPU_Init();
+	GPIO_Init();
+	USART2_Init();
+	TIM2TICK_Init();
+	PushButtonInterrup_Init();
+	SCANF_Init();
+
+	vTraceEnable(TRC_START);
+	TIM2TICK_Delay(10);
+	
+	// xTaskCreate(fonction, nom, taille_pile_en_mots, paramètre de la tache, priorité, handle)
+	// Taille pile: 256 mots = 1024 octets
+	// Priorité: 0 = plus basse, nombre plus élevé = priorité plus haute
+
+	PC13_IT_Handle = xTraceSetISRProperties("PC13_IT", 15);
+
+    // Création des tâches avec des priorités égales
+	xTaskCreate(TaskGenerateIT_Handler, "TaskGenerateIT", 256, NULL, HIGH, &TaskGenerateIT_Handle);
+
+
+
+        // Démarrer le scheduler FreeRTOS
+     vTaskStartScheduler();
+
+
+
+	while(1){
+	}
+}
+
+
+

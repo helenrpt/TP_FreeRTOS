@@ -1,0 +1,63 @@
+
+#include <stdint.h>
+#include "stm32f446xx.h"
+#include "interrupt.h"
+#include "FreeRTOS.h"
+
+extern uint32_t ticks;
+
+// Interrupt Handler for SysTick Interrupt
+/*void SysTick_Handler(void){
+	ticks++;
+}*/
+
+void TIM2_IRQHandler(void){
+		ticks++;
+		TIM2->SR =~TIM_SR_UIF;
+
+
+}
+
+//////////////// HOW TO SETUP INTERUPT ? ///////////
+// 1. Activate the NVIC IT :  NVIC_EnableIRQ().
+// 2. Define the Event that generate IT : GPIO Rising Edge, Timer Update, USART RX not empty...
+// 3. Write the corresponding ISR (Interrupt Sub-Routine) code. Do not forget to reset IT Flag.
+
+///////////////         EXTI             //////////
+// When using EXTI, to define the Event that generate IT (2), we need :
+// a. Enable SYSCFG peripheral clock.
+// b. Select the right PORT connected to EXTIx : SYSCFR->EXTICR.
+// c. Unmask IT on EXTIx : EXTI->IMR.
+// d. Select Rising or falling trigger edge :  EXTI->RTSR or EXTI->FTSR.
+
+/* PUSH BUTTON INTERRUPT*/
+void PushButtonInterrup_Init(void) {
+	RCC->APB2ENR |= RCC_APB2ENR_SYSCFGEN;
+	SYSCFG->EXTICR[3] &= ~(0xF << 4);  // Clear bits for EXTI13
+	SYSCFG->EXTICR[3] |= (0x2 << 4);   // PORTC (0x2)
+	EXTI->IMR |= EXTI_IMR_MR13;
+	EXTI->PR = EXTI_PR_PR13;
+
+	EXTI->FTSR |= EXTI_FTSR_TR13;      // Enable falling edge
+	EXTI->RTSR &= ~EXTI_RTSR_TR13;     // Disable rising edge
+
+	NVIC_EnableIRQ(EXTI15_10_IRQn);
+}
+
+// Interrupt Handler for EXTI15_10 (handles EXTI10 to EXTI15)
+
+extern traceHandle PC13_IT_Handle;
+
+void EXTI15_10_IRQHandler(void) {
+
+	if (EXTI->PR & EXTI_PR_PR13) {	// Check if EXTI13 triggered the interrupt
+
+		vTraceStoreISRBegin(PC13_IT_Handle);
+		EXTI->PR = EXTI_PR_PR13;
+		vTraceStoreISREnd(0);
+
+		GPIOA->ODR ^= 1<<5;
+
+
+	}
+}
